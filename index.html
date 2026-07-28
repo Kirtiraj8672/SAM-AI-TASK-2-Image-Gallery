@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+
+        <h1> Image Gallery</h1>
+
+        <div class = "filter-buttons">
+
+            <button class="filter-btn" data-category="all">All</button>
+
+            <button class="filter-btn" data-category="nature" >Nature</button>
+
+            <button class="filter-btn" data-category="city" >City</button>
+            
+            <button class="filter-btn" data-category="animals">Animals</button>
+
+        </div>
+
+        <div class="gallery">
+
+            <div class="image-item" data-category="nature">
+
+                <img src="./image/nature1.jpg" alt="nature image ">
+
+            </div>
+
+            <div class="image-item" data-category="nature">
+
+                <img src="./image/nature2.jpg" alt="nature image ">
+
+            </div>
+
+            <div class="image-item" data-category="nature">
+
+                <img src="./image/nature3.jpg" alt="nature image ">
+
+            </div>
+
+            <div class="image-item" data-category="city">
+
+                <img src="./image/city1.jpg" alt="city image ">
+
+            </div>
+
+            <div class="image-item" data-category="city">
+
+                <img src="./image/city2.jpg" alt="city image ">
+
+            </div>
+
+            <div class="image-item" data-category="city">
+
+                <img src="./image/city3.jpg" alt="city image ">
+
+            </div>
+
+            <div class="image-item" data-category="animals">
+
+                <img src="./image/animal1.jpg" alt="animal image ">
+
+            </div>
+
+            <div class="image-item" data-category="animals">
+
+                <img src="./image/animal2.jpg" alt="animal image ">
+
+            </div>
+
+            <div class="image-item" data-category="animals">
+
+                <img src="./image/animal3.jpg" alt="animal image ">
+
+            </div>
+        </div>
+
+    </div>
+    <div class="lightbox">
+        <button class="close-btn">&times;</button>
+        <img id="lightbox-img" src="" alt="Large image">
+    </div>
+    
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
