@@ -91,6 +91,13 @@ index.html
 ```
 
 ---
+
+## 🌐 Live Demo
+
+🔗 [View Live Image Gallery](https://Kirtiraj8672.github.io/SAM-AI-TASK-2-Image-Gallery/)
+
+---
+
 # 📚 Learning Outcomes
 
 This project helped me improve my understanding of:
